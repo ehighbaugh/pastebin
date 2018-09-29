@@ -14,10 +14,12 @@ import { HttpModule } from '@angular/http';
 // in memory web api to sim http server
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from '../in-memory-data.service';
+import { PastebinComponent } from './pastebin/pastebin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PastebinComponent
   ],
   imports: [
     BrowserModule,
