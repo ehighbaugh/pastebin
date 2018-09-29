@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
-
 import { PastebinService } from './pastebin.service';
+
 
 describe('PastebinService', () => {
   beforeEach(() => {
