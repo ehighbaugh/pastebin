@@ -6,7 +6,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // service for pastebin
-import { PastebinService } from './pastebin/pastebin.service';
+import { PastebinService } from './pastebin.service';
 
 // modules used in tutorial
 import { HttpModule } from '@angular/http';
@@ -14,7 +14,7 @@ import { HttpModule } from '@angular/http';
 // in memory web api to sim http server
 import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from '../in-memory-data.service';
-import { PastebinComponent } from './pastebin/pastebin.component';
+import { PastebinComponent } from './pastebin-component/pastebin.component';
 
 @NgModule({
   declarations: [
